@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dapps: incorrectly handling wei when retrieving and displaying a user's balance.  The `getBalanceBug.js` file shows the problematic code, which returns the balance in wei. The `getBalanceSolution.js` file provides a corrected version that converts the wei balance to ether for easier readability and calculation.
